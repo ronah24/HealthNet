@@ -22,7 +22,7 @@ The project aims to improve efficiency in hospitals by reducing paperwork, speed
 
 ![Dashboard](https://github.com/ronah24/HealthNet/blob/main/dashboard%20.png?raw=true)
 ![Patient Management](https://github.com/ronah24/HealthNet/blob/main/resources.png?raw=true)
-![Billing](https://github.com/ronah24/HealthNet/blob/main/Screenshot%20(1).png?raw=true)
+![Billing](https://github.com/ronah24/HealthNet/blob/main/chat%20with%20provider.png?raw=true)
 ![Records](https://github.com/ronah24/HealthNet/blob/main/Screenshot%20(1).png?raw=true)
 
 

@@ -11,7 +11,7 @@
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** [PHP, Python/Django]
+- **Backend:** PHP
 - **Database:** MySQL / SQL
 - **Networking:** Designed with security and multi-user access in mind
 

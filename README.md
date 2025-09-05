@@ -12,7 +12,7 @@
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** [Add PHP, Python/Django, or whichever you used]
+- **Backend:** [Add PHP, Python/Django]
 - **Database:** MySQL / SQL
 - **Networking:** Designed with security and multi-user access in mind
 
@@ -20,7 +20,6 @@
 The project aims to improve efficiency in hospitals by reducing paperwork, speeding up patient care processes, and ensuring secure management of sensitive medical data.
 
 ## 📸 Screenshots
-*(Replace the URLs with your uploaded images)*
 
 ![Dashboard](https://github.com/ronah24/HealthNet/blob/main/dashboard%20.png?raw=true)
 ![Patient Management](https://github.com/your-username/healthnet/blob/main/patient.png)

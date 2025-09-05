@@ -1,0 +1,130 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-image: url(images/loginbackround.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Signup Container Styling */
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    backdrop-filter: blur(2px);
+}
+
+
+.signup-card {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    padding: 40px 20px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.signup-card {
+    margin-top: 18%;
+}
+
+.signup-card h2 {
+    color: #007BFF;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.input-group i {
+    margin-right: 8px;
+    color: #007BFF;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #007bff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn-signup {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.btn-signup:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: #FF0000;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.login-link {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Signup Card */
+@media (max-width: 768px) {
+    .signup-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-card h2 {
+        font-size: 20px;
+    }
+}

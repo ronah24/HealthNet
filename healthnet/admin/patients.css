@@ -1,0 +1,31 @@
+.srcfrm input {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #051229;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.srcfrm button {
+    width: 15%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #051229;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.srcfrm button:hover {
+    background-color: #051229;
+    color: aliceblue;
+}
+
+.dob {
+    width: 15%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #051229;
+    background-color: rgb(255, 255, 255, 0.1);
+}

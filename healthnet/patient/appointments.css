@@ -1,0 +1,115 @@
+/* Basic styling for the appointments section */
+* {
+  box-sizing: border-box;
+}
+
+.appointments-section {
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.appointments-section h1,
+.appointments-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.appointments-section .contain {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.message {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.appointments-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.appointments-list table th,
+.appointments-list table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #fff;
+}
+
+.appointments-list table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.appointments-list table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.appointments-list p {
+  font-size: 16px;
+  color: #fff;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+form select,
+form input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Query for smaller devices */
+@media (max-width: 768px) {
+  .appointments-section {
+    padding: 15px;
+  }
+
+  .appointments-section h1,
+  .appointments-section h2 {
+    font-size: 20px;
+  }
+
+  form button {
+    width: 100%;
+  }
+}

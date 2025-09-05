@@ -1,0 +1,291 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #0066cc;
+  color: #fff;
+}
+
+.logo h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-nav ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.header-nav ul li a:hover {
+  color: #ffcc00;
+}
+
+.header-right {
+  display: none; /* Hidden until mobile view */
+}
+
+/* Login Button */
+.btn-login {
+  padding: 0.5rem 1rem;
+  background-color: #ffcc00;
+  color: #0066cc;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #fff;
+  color: #0066cc;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  background-color: #0066cc;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 250px;
+  padding: 2rem;
+  transform: translateX(100%); /* Sidebar hidden initially */
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+.sidebar.active {
+  transform: translateX(0); /* Sidebar becomes visible when active */
+}
+
+.sidebar ul li {
+  list-style: none;
+  padding: 1rem 0;
+}
+
+.sidebar ul li a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: #ffcc00;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  padding: 10rem 2rem;
+  text-align: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("images/image2.png") no-repeat center/cover;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.hero p {
+  color: #ffffff;
+}
+.cta-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #ffcc00;
+  color: #0066cc;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #fff;
+  color: #0066cc;
+}
+
+/* Section Styling */
+.section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.section h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Service Cards */
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.service-cards .card {
+  flex: 1;
+  max-width: 300px;
+  padding: 1.5rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.service-cards .card:hover {
+  transform: translateY(-10px);
+}
+
+.service-cards .card i {
+  font-size: 2.5rem;
+  color: #0066cc;
+  margin-bottom: 1rem;
+}
+
+.service-cards .card h4 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* Testimonials */
+#testimonials blockquote {
+  font-style: italic;
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
+  background: #f9f9f9;
+  border-left: 4px solid #ffcc00;
+}
+
+/* FAQ Section */
+#faq ul {
+  list-style-type: none;
+}
+
+#faq ul li {
+  margin: 1rem 0;
+}
+
+/* Contact Form */
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contact form input,
+#contact form textarea,
+#contact form button {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#contact form button {
+  background-color: #0066cc;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact form button:hover {
+  background-color: #ffcc00;
+  color: #0066cc;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none; /* Hide menu toggle on large screens */
+  }
+
+  .sidebar {
+    display: none; /* Hide sidebar on larger screens */
+  }
+
+  .header-right {
+    display: none; /* Hide header-right on large screens */
+  }
+}
+
+@media (max-width: 767px) {
+  .header-nav {
+    display: none; /* Hide header nav on small screens */
+  }
+
+  .header-right {
+    display: flex; /* Show header-right for the menu toggle */
+    align-items: center;
+  }
+
+  .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+  }
+
+  .service-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}

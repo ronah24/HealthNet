@@ -1,0 +1,27 @@
+.content-section {
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.content-section h2 {
+    color: #051229;
+}
+
+.content-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.content-section table, th, td {
+    border: 1px solid #051229;
+}
+
+.content-section th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+.content-section th {
+    background-color: #3498DB;
+    color: #051229;
+}

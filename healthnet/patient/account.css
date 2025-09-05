@@ -1,0 +1,121 @@
+/* Account Section Styles */
+.account-section {
+  padding: 40px 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  max-width: 500px;
+}
+
+.account-section h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Container for form */
+.contain {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+form {
+  display: grid;
+  gap: 20px;
+}
+
+/* Form Group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels for input fields */
+label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Input fields and select */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+input[type="password"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fafafa;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus styles */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+select:focus,
+input[type="password"]:focus {
+  border-color: #0066cc;
+  outline: none;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  padding: 12px;
+  background-color: #0066cc;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #004d99;
+}
+
+button[type="submit"]:active {
+  background-color: #003366;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .account-section {
+    padding: 20px;
+  }
+
+  .contain {
+    padding: 20px;
+  }
+
+  .form-group label {
+    font-size: 0.9rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  select,
+  input[type="password"] {
+    font-size: 0.9rem;
+  }
+
+  button[type="submit"] {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,8 @@
+.contents {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #051229;
+    background-color: rgb(255, 255, 255, 0.1);
+}

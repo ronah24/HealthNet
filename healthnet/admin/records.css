@@ -1,0 +1,22 @@
+.recordsfrm input{
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #051229;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.recordsfrm button {
+    width: 10%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #051229;
+    background-color: rgb(255, 255, 255, 0.1);
+
+}
+
+.recordsfrm button:hover {
+    background-color: #051229;
+    color: aliceblue;
+}
